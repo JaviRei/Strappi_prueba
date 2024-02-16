@@ -1,0 +1,56 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D23B9CF45BC7B1D2A6',
+    participant: undefined
+  },
+  messageTimestamp: 1708056994,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b2456bb1-cd2c-4483-bf84-5ebe38c2c5bb',
+  keyword: 'key_0b407fbd-0fdd-4f74-839a-30aa5d8a3716',
+  answer: 'Bienvenido a 🍐 *Sana Delicia* 🍐\n¿Como podemos ayudarte hoy?',
+  options: {
+    media: 'https://scontent.fgdl11-1.fna.fbcdn.net/v/t39.30808-6/310955069_10229206814662728_4732240852357698253_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=j8gdXSmLVa0AX-XUISH&_nc_ht=scontent.fgdl11-1.fna&oh=00_AfAaVk_sP1xhAr3E82pQFnC4ci92XdOuFa5TBPV4HlBFgA&oe=65D23EC5',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2dd6f80c4c7679d1cd4140d3535365e5'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_649b7ff8-6153-4a75-9b49-2a985b67f6b3',
+  keyword: 'ans_b2456bb1-cd2c-4483-bf84-5ebe38c2c5bb',
+  answer: '1️⃣ Ver el 📗 *Menu*\n2️⃣ ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd908f0569be436aa0db56043c6ad6f78'
+}
