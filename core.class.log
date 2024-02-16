@@ -2,44 +2,181 @@
   key: {
     remoteJid: '5213322542808@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0D23B9CF45BC7B1D2A6',
+    id: '3EB03646976003EE702B0F',
     participant: undefined
   },
-  messageTimestamp: 1708056994,
+  messageTimestamp: 1708066667,
   pushName: 'Javi Enriquez',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: 'd',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'hola',
+  body: 'd',
   from: '5213322542808'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b2456bb1-cd2c-4483-bf84-5ebe38c2c5bb',
-  keyword: 'key_0b407fbd-0fdd-4f74-839a-30aa5d8a3716',
-  answer: 'Bienvenido a 🍐 *Sana Delicia* 🍐\n¿Como podemos ayudarte hoy?',
+  ref: 'ans_20da849b-9c0e-4f22-99bc-bd368de99ea4',
+  keyword: 'key_7bc7fdaf-209d-4086-ad96-bc3df48ff249',
+  answer: 'Bienvenido a 🍐 *Sana Delicia* 🍐\n' +
+    '¿Qué te preparamos hoy?\n' +
+    '\n' +
+    'Escribe la palabra _PEDIDO_ para hacer tu solicitud',
   options: {
-    media: 'https://scontent.fgdl11-1.fna.fbcdn.net/v/t39.30808-6/310955069_10229206814662728_4732240852357698253_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=j8gdXSmLVa0AX-XUISH&_nc_ht=scontent.fgdl11-1.fna&oh=00_AfAaVk_sP1xhAr3E82pQFnC4ci92XdOuFa5TBPV4HlBFgA&oe=65D23EC5',
+    media: null,
     buttons: [],
     capture: false,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
-    nested: [],
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
     keyword: {},
     callback: false
   },
-  refSerialize: '2dd6f80c4c7679d1cd4140d3535365e5'
+  refSerialize: 'fcb22d95f1c1ba79188772be228d9fb5'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0FF846B7AD3C7DD866F',
+    participant: undefined
+  },
+  messageTimestamp: 1708066670,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'pedido',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'pedido',
+  from: '5213322542808'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_649b7ff8-6153-4a75-9b49-2a985b67f6b3',
-  keyword: 'ans_b2456bb1-cd2c-4483-bf84-5ebe38c2c5bb',
-  answer: '1️⃣ Ver el 📗 *Menu*\n2️⃣ ',
+  ref: 'ans_8f1c093a-7cd8-4732-8631-8498c3dfb513',
+  keyword: 'key_7016c78f-63d7-414c-89f5-a2a7553c9c60',
+  answer: 'Cual es tu pedido?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'aac3c94af2d44b0528a9f4330f2d4591'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB037B707A8E5A0B7BA5B',
+    participant: undefined
+  },
+  messageTimestamp: 1708066686,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'lonche de jamon',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'lonche de jamon',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_080e94f0-1518-428d-9d7e-e2d01ee588d1',
+  keyword: 'ans_8f1c093a-7cd8-4732-8631-8498c3dfb513',
+  answer: 'Ingresa tu nombre (🛵 _para identificar quien recibira el pedido_): ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '21dec2828dea5248cbe6408134b4a25e'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0EC4505C5A762534FA7',
+    participant: undefined
+  },
+  messageTimestamp: 1708066691,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: 'jairo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'jairo',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a4aa10d3-32e3-4ad4-b430-ebd4f1389b86',
+  keyword: 'ans_080e94f0-1518-428d-9d7e-e2d01ee588d1',
+  answer: 'Ingresa el precio: ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4afef8322d8c6647b6649b372a407b6c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5213322542808@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0BB8CA39DBEF532478F',
+    participant: undefined
+  },
+  messageTimestamp: 1708066697,
+  pushName: 'Javi Enriquez',
+  broadcast: false,
+  message: Message {
+    conversation: '85',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '85',
+  from: '5213322542808'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7bc4f492-e3dc-4645-8cf0-d52296bce751',
+  keyword: 'ans_a4aa10d3-32e3-4ad4-b430-ebd4f1389b86',
+  answer: 'tu pedido se esta procesando',
   options: {
     media: null,
     buttons: [],
@@ -50,7 +187,25 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: 'd908f0569be436aa0db56043c6ad6f78'
+  refSerialize: 'cd00693b61117daf6646dd72e5419db1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_07af1136-c74b-42a0-ae5f-731a6f859ae8',
+  keyword: 'ans_7bc4f492-e3dc-4645-8cf0-d52296bce751',
+  answer: 'Tu pedido a sido registrado\nTenemos un tiempo de espera de 20 a 30 min',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '775695734ad0a7264b3cf0f1e85e8c84'
 }
