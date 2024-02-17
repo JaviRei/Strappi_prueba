@@ -10,7 +10,7 @@ module.exports = addKeyword(EVENTS.WELCOME).addAnswer(
     "Bienvenido a 🍐 *Sana Delicia* 🍐",
     "¿Qué te preparamos hoy?",
     "",
-    "Escribe la palabra _PEDIDO_ para hacer tu solicitud",
+    "Haz cualquier pregunta",
   ],
 
   null,

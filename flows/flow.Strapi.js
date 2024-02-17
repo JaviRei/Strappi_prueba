@@ -1,9 +1,11 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
 const guardarTicket = require("../funciones/guardar.Ticket");
 
+//Esta variable sireve para
 const GLOBAL_STATE = {};
 module.exports = addKeyword("pedido")
   .addAnswer(["Cual es tu pedido?"], { capture: true }, async (ctx) => {
+    //GLOBAL[3322542808] = {}
     GLOBAL_STATE[ctx.from] = {
       numero: ctx.from,
       pedido: ctx.body,
@@ -26,10 +28,10 @@ module.exports = addKeyword("pedido")
     null,
     async (ctx, { flowDynamic }) => {
       const respuesta_Strapi = await guardarTicket(GLOBAL_STATE[ctx.from]);
-      console.log(respuesta_Strapi);
-      await flowDynamic(
-        `Tu orden es el numero *${respuesta_Strapi.data.data.id}*`
-      );
+      await flowDynamic([
+        `Tu orden es el numero *${respuesta_Strapi.data.data.id}*`,
+        `Tu Pedido es *${respuesta_Strapi.data.data.attributes.pedido}*`,
+      ]);
     }
   )
   .addAnswer(
